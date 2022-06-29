@@ -765,6 +765,17 @@
                                 </div>
                                 <!-- field end -->
 
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Event Logo</strong></label>
+                                    <div class="controls">
+                                        <input type="file" id="myfile" name="myfile">
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
                                 <!-- field start -->
                                 <div class="control-group required" style="margin-top: 20px;">
                                     <label class="control-label">
@@ -940,6 +951,17 @@
                                 <!-- field start -->
                                 <div class="control-group required" style="margin-top: 20px;;">
                                     <label class="control-label">
+                                        <strong>Estimated event bugdet (USD)</strong>
+                                    </label>
+                                    <div class="controls">
+                                        <input name="txtTitle" id="txtTitle" type="text" class="span10 ui-autocomplete-input" value="" autocomplete="off">
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;;">
+                                    <label class="control-label">
                                         <strong>Event Remarks (Background Notes)</strong>
                                     </label>
                                     <div class="controls">
@@ -1076,6 +1098,32 @@
                                 <!-- field start -->
                                 <div class="control-group required" style="margin-top: 20px;">
                                     <label class="control-label">
+                                        <strong>Registration Start</strong></label>
+                                    <div class="controls">
+                                        <input id="txtStartDate" name="txtStartDate" type="text" class="span5">
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Registration End</strong></label>
+                                    <div class="controls">
+                                        <input id="txtStartDate" name="txtStartDate" type="text" class="span5">
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+
+                                <div >
+                                    <p>Digital Event Platform Setup <-- awalnya pakai nama ini, dipecah jadi beberapa bagian</p>
+                                </div>
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
                                         <strong>Digital Event Platform Setup</strong>
                                     </label>
                                     <div class="controls">
@@ -1119,11 +1167,57 @@
                                                 </p>
                                                 <!-- radio button option -->
 
+
                                                 <!-- radio button option -->
                                                 <p class="field-note">
                                                     <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
                                                     <label for="eventTypeList_2">
-                                                       Slido
+                                                    <input name="txtTitle" id="txtTitle" type="text" class="span7 ui-autocomplete-input" value="" autocomplete="off">
+                                                    <p>Please type other option if any</p>
+                                                </label>
+                                                </p>
+                                                <!-- radio button option -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Tools Online Platform</strong>
+                                    </label>
+                                    <div class="controls">
+                                        <div class="radiobutton">
+                                            <span id="eventTypeList">
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        Not Required
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        Slido
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_1" type="checkbox" name="eventType" value="2">
+                                                    <label for="eventTypeList_1">
+                                                       Miro
                                                     </label>
                                                 </p>
                                                 <!-- radio button option -->
@@ -1132,7 +1226,7 @@
                                                 <p class="field-note">
                                                     <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
                                                     <label for="eventTypeList_2">
-                                                      Miro
+                                                        Mural
                                                     </label>
                                                 </p>
                                                 <!-- radio button option -->
@@ -1141,16 +1235,7 @@
                                                 <p class="field-note">
                                                     <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
                                                     <label for="eventTypeList_2">
-                                                     Mural
-                                                    </label>
-                                                </p>
-                                                <!-- radio button option -->
-
-                                                <!-- radio button option -->
-                                                <p class="field-note">
-                                                    <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
-                                                    <label for="eventTypeList_2">
-                                                      Whova (For large conference with multi parallel sessions)
+                                                       Other
                                                     </label>
                                                 </p>
                                                 <!-- radio button option -->
@@ -1161,7 +1246,7 @@
                                                     <label for="eventTypeList_2">
                                                     <input name="txtTitle" id="txtTitle" type="text" class="span7 ui-autocomplete-input" value="" autocomplete="off">
                                                     <p>Please type other option if any</p>
-                                                    </label>
+                                                </label>
                                                 </p>
                                                 <!-- radio button option -->
                                             </span>
@@ -1170,6 +1255,195 @@
                                 </div>
                                 <!-- field end -->
 
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Tools Online Platform</strong>
+                                    </label>
+                                    <div class="controls">
+                                        <div class="radiobutton">
+                                            <span id="eventTypeList">
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        Not Required
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        Whova
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_1" type="checkbox" name="eventType" value="2">
+                                                    <label for="eventTypeList_1">
+                                                       Inwink
+                                                    </label>
+                                                </p>
+                                                <!-- radio button option -->
+
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
+                                                    <label for="eventTypeList_2">
+                                                       Other
+                                                    </label>
+                                                </p>
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
+                                                    <label for="eventTypeList_2">
+                                                    <input name="txtTitle" id="txtTitle" type="text" class="span7 ui-autocomplete-input" value="" autocomplete="off">
+                                                    <p>Please type other option if any</p>
+                                                </label>
+                                                </p>
+                                                <!-- radio button option -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Live Streaming/re-streaming</strong>
+                                    </label>
+                                    <div class="controls">
+                                        <div class="radiobutton">
+                                            <span id="eventTypeList">
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        Not Required
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        Youtube
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_1" type="checkbox" name="eventType" value="2">
+                                                    <label for="eventTypeList_1">
+                                                       Facebook
+                                                    </label>
+                                                </p>
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_1" type="checkbox" name="eventType" value="2">
+                                                    <label for="eventTypeList_1">
+                                                       Twitch
+                                                    </label>
+                                                </p>
+                                                <!-- radio button option -->
+
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
+                                                    <label for="eventTypeList_2">
+                                                       Other
+                                                    </label>
+                                                </p>
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
+                                                    <label for="eventTypeList_2">
+                                                    <input name="txtTitle" id="txtTitle" type="text" class="span7 ui-autocomplete-input" value="" autocomplete="off">
+                                                    <p>Please type other option if any</p>
+                                                </label>
+                                                </p>
+                                                <!-- radio button option -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Live Streaming/re-streaming</strong>
+                                    </label>
+                                    <div class="controls">
+                                        <div class="radiobutton">
+                                            <span id="eventTypeList">
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        1
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
+                                                    <label for="eventTypeList_0">
+                                                        2
+                                                    </label>
+                                                </p>
+
+                                                <!-- radio button option -->
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_1" type="checkbox" name="eventType" value="2">
+                                                    <label for="eventTypeList_1">
+                                                       More than 2
+                                                    </label>
+                                                </p>
+                                                <!-- radio button option -->
+
+
+                                                <!-- radio button option -->
+                                                <p class="field-note">
+                                                    <input id="eventTypeList_2" type="checkbox" name="eventType" value="3">
+                                                    <label for="eventTypeList_2">
+                                                    <input name="txtTitle" id="txtTitle" type="text" class="span7 ui-autocomplete-input" value="" autocomplete="off">
+                                                    <p>Please describe</p>
+                                                </label>
+                                                </p>
+                                                <!-- radio button option -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- field end -->
 
                                 <!-- field start -->
                                 <div class="control-group" style="margin-top: 20px;;">
@@ -1472,7 +1746,7 @@
                                                 <p class="field-note">
                                                     <input id="eventTypeList_0" type="checkbox" name="eventType" value="1">
                                                     <label for="eventTypeList_0">
-                                                        Event Statistic (Number of Registration, Number of Attendance, Gender, Countries, Region, Typeof Organization)
+                                                    Participant Event Statistic  (Number of Registration, Number of Attendance, Gender, Countries, Region, Typeof Organization)
 
 
                                                     </label>
@@ -1527,6 +1801,16 @@
                                                 <!-- radio button option -->
                                             </span>
                                         </div>
+                                    </div>
+                                </div>
+                                <!-- field end -->
+
+                                <!-- field start -->
+                                <div class="control-group required" style="margin-top: 20px;">
+                                    <label class="control-label">
+                                        <strong>Supporting Documents (TOR, Agenda, etc)</strong></label>
+                                    <div class="controls">
+                                        <input type="file" id="myfile" name="myfile">
                                     </div>
                                 </div>
                                 <!-- field end -->
