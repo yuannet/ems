@@ -1,0 +1,129 @@
+﻿.custom-combobox
+{
+    position: relative;
+    display: inline-block;
+}
+.custom-combobox-toggle
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input
+{
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.eventLogo
+{
+    width: 87px;
+    height : 80px;   
+    border: solid 1px #7eac01; 
+}
+
+.number
+{
+    text-align : right;
+}
+
+.fixedTable
+{
+    table-layout:fixed;    
+    margin-left : 0 !important;
+}
+
+.sub-section
+{
+    padding-left : 20px;
+}
+
+.control-label.left
+{
+    text-align : left !important;    
+}
+
+.hidden
+{
+    display:none;
+}
+
+.warpCell
+{
+    word-wrap:break-word;
+}
+
+.doc-notes{
+    display : block; 
+    margin-top : 0px;
+    margin-bottom : 0px;
+    font-style : italic;
+    font-size : 12px;
+}
+
+span.action
+{
+    cursor: pointer;
+}
+
+.deleted-text {
+    text-decoration: line-through;
+    color: red;
+}
+
+.deleted-checkbox, .deleted-radio {
+    outline: thin solid red;
+}
+
+.new-text {
+    color: green;
+}
+
+.new-checkbox, .new-radio {
+    outline: thin solid green;
+}
+
+.deleteItem {
+    text-decoration: line-through;
+    color: #F00;
+}
+
+.newRow
+{
+    color:Green;
+}
+
+.table-no-border td
+{
+  border-top: 0px !important;    
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.control-group.required .control-label:after {
+  content: " * ";
+  color: red;
+}
+
+.tabContainer .container-fluid {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.tabContainer .floatingBox:last-of-type {
+  margin-bottom : 7px;
+}
+
+.nav.nav-tabs
+{
+  margin-bottom : 7px;
+}
+
+.formFooter
+{
+    margin-bottom : 0px !important;
+}
